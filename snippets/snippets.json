@@ -1,0 +1,67 @@
+{
+  "Generic Arrow Function": {
+    "prefix": "qa",
+    "body": ["() => {", "\t${0:expression}", "}"],
+    "description": "Create a Generic Arrow Function"
+  },
+  "Arrow Function Variable": {
+    "prefix": "qav",
+    "body": ["const ${1: func} = () => {", "\t${0:expression}", "}"],
+    "description": "Create an Arrow Function Variable"
+  },
+  "Arrow Function Variable with Parameters": {
+    "prefix": "qavp",
+    "body": ["const ${1: func} = (${2:params}) => {", "\t${0:expression}", "}"],
+    "description": "Create an Arrow Function Variable with Parameters"
+  },
+  "Arrow Function with Parameters": {
+    "prefix": "qap",
+    "body": ["(${1:params}) => {", "\t${0:expression}", "}"],
+    "description": "Create an Arrow Function with Parameters"
+  },
+  "Short Arrow Function": {
+    "prefix": "qsa",
+    "body": ["() => ${0:expression}"],
+    "description": "Create a Short Arrow Function with Parameters"
+  },
+  "Short Arrow Function with Parameters": {
+    "prefix": "qsap",
+    "body": ["(${1:params}) => ${2:expression}"],
+    "description": "Create a Short Arrow Function with Parameters"
+  },
+  // ----- Async -----
+  "Generic Async Arrow Function": {
+    "prefix": "qaa",
+    "body": ["async () => {", "\t${0:expression}", "}"],
+    "description": "Create a Generic Async Arrow Function"
+  },
+  "Async Arrow Function Variable": {
+    "prefix": "qaav",
+    "body": ["const ${1: func} = async () => {", "\t${0:expression}", "}"],
+    "description": "Create an Async Arrow Function Variable"
+  },
+  "Async Arrow Function Variable with Parameters": {
+    "prefix": "qaavp",
+    "body": [
+      "const ${1: func} = async (${2:params}) => {",
+      "\t${0:expression}",
+      "}"
+    ],
+    "description": "Create an Async Arrow Function Variable with Parameters"
+  },
+  "Async Arrow Function with Parameters": {
+    "prefix": "qaafp",
+    "body": ["async (${1:params}) => {", "\t${0:expression}", "}"],
+    "description": "Create an Async Arrow Function with Parameters"
+  },
+  "Short Async Arrow Function": {
+    "prefix": "saaf",
+    "body": ["qasync () => ${0:expression}"],
+    "description": "Create a Short Async Arrow Function with Parameters"
+  },
+  "Short Async Arrow Function with Parameters": {
+    "prefix": "qsaafp",
+    "body": ["async (${1:params}) => ${2:expression}"],
+    "description": "Create a Short Async Arrow Function with Parameters"
+  }
+}

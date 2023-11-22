@@ -1,0 +1,40 @@
+{
+  "name": "quick-arrow-snippets",
+  "displayName": "Quick Arrow Snippets",
+  "description": "Arrow function snippets designed to enhance your coding experience for js/jsx/ts/tsx",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "publisher": "sapondanaisriwan",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sapondanaisriwan/quick-arrow-snippets"
+  },
+  "homepage": "https://github.com/sapondanaisriwan/quick-arrow-snippets",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
