@@ -4,6 +4,8 @@
 
 "Quick Arrow Snippets" is a handy collection of arrow function snippets designed to enhance your coding experience. These snippets are tailored for quick insertion into your code, helping you write concise and efficient arrow functions without the need to retype common structures.
 
+![preview](https://github.com/sapondanaisriwan/quick-arrow-snippets/assets/64634605/ac12cac7-6444-42e3-ac57-fa395cc402e0)
+
 ## Features
 
 - Efficiency: Save time by easily inserting commonly used arrow function patterns.
